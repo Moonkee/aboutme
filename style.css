@@ -1,0 +1,242 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+/* navbar styling */
+.container {
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+.navbar {
+    position: fixed;
+    width: 100%;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: crimson;
+}
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.navbar .logo a {
+    font-size: 35px;
+    font-weight: 600;
+    color: white;
+}
+.navbar .menu {
+    list-style: none;
+    display: flex;
+}
+.navbar .menu li a {
+    color: white;
+    font-size: 19px;
+    font-family: monospace;
+    font-weight: bold;
+    padding: 10px 0;
+    margin: 0 10px;
+    display: inline-block;
+}
+
+/* home design */
+.home {
+    display: flex;
+    color: whitesmoke;
+    min-height: 500px;
+    font-family: monospace;
+    background-color: rgb(5, 5, 5);
+}
+.home .container {
+    margin: auto 0 auto 40px;
+    width: 100%;
+}
+.home .home-content .text-1 {
+    font-size: 20px;
+    font-weight: 100;
+}
+.home .home-content .text-2 {
+    font-size: 75px;
+    font-weight: bolder;
+    margin: -3px;
+    color: crimson;
+}
+.home .home-content .text-3 {
+    font-size: 25px;
+    font-weight: 200;
+}
+
+/*about me styling*/
+.about {
+    font-family: monospace;
+}
+.about .container {
+
+}
+.about .container .title {
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    margin: 100px auto 30px auto;
+}
+.about .container .pfp {
+    text-align: center;
+}
+.about .container .pfp .profile {
+    width: 300px;
+    border-radius: 50%;
+}
+.about .container .aboutme {
+    font-family: sans-serif;
+    margin: 0 auto;
+    margin: 100px;
+}
+.about .container .aboutme .greeting{
+    font-size: 30px;
+    margin: 30px auto ;
+}
+.about .container .aboutme .greeting span{
+    font-size: 32px;
+    margin: 30px auto ;
+    color: crimson;
+}
+.about .container .aboutme .text{
+    font-size: 15px;
+    margin: auto 0 30px;
+}
+
+/* SKILLS STYLING */
+.skill {
+    font-family: monospace;
+    padding: 0 0 50px;
+}
+.skill .container {
+    
+}
+.skill .container .title {
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    margin: 100px auto 30px auto;
+    margin: 100px;
+}
+.skill .container .skills {
+    display: flex;
+
+}
+.skill .container .skills .skll h3{
+    font-size: 20px;
+    margin: 20px;
+}
+.skill .container .skills .skll {
+    padding: 20px;
+    margin: 30px;
+    text-align: center;
+    color: whitesmoke;
+    background-color: crimson;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+/* SCHEDULE STYLING */
+
+.schedule-container {
+    margin: 0 0 100px;
+}
+.schedule-container {
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    margin: 100px auto 30px auto;
+    margin: 100px;
+
+}
+.schedule-header {
+    padding: 100px 0 30px 0;
+    font-family: sans-serif;
+    font-size: 20px;
+    width: 100%;
+}
+.schedule-header .container {
+    width: 700px;
+    margin: 0 auto;
+}
+
+.schedule {
+    width: 700px;
+    height: 500px;
+    margin: 0 auto 50px;
+    overflow: hidden;
+    overflow-y: scroll;
+    box-shadow: 0 0 20px;
+}
+.schedule .container {
+    width: 100%;
+    margin: 0 auto;
+    font-family: sans-serif;
+    font-size: 15px;
+    background-color: rgb(238, 238, 238);
+}
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 100%;
+}
+td {
+    width: 100px;
+    text-align: center;
+    border: 1px solid silver;
+    padding: 20px;
+    font-weight: bolder;
+}
+.subj {
+    font-size: 12px;
+    background-color: rgb(19, 19, 19);
+    color: rgb(214, 214, 214);
+    
+}
+th {
+    font-weight: bold;
+    margin: 0 0 5px;
+    text-align: center;
+    height: 50px;
+    background-color: rgb(19, 19, 19);
+    color: rgb(214, 214, 214);
+    position: sticky;
+    top: 0;
+    width: 100px;
+}
+
+/* CONTACTS STYLING */
+.contact {
+    font-family: monospace, sans-serif;
+    min-height: 500px;
+    background-color: rgb(5, 5, 5);
+    padding: 30px;
+}
+.contact .container {
+    margin: 100px;
+}
+.contact .container .title {
+    color: whitesmoke;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    margin: 100px auto 30px auto;
+}
+.contact .container .contacts ul li{
+    list-style: none;
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 30px;
+
+}
+.contact .container .contacts ul li a {
+    color: whitesmoke;
+    padding: 10px 20px 10px 20px;
+    background-color: crimson;
+    border-radius: 20px;
+}
